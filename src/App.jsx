@@ -121,10 +121,10 @@ const App = () => {
       }
       function handleRemoveFighter(fighter){
         const updatedFighters = team.filter(
-        (f) => f.id !== fighter.id
+        (member) => member.id !== fighter.id
         );
         console.log(updatedFighters)
-        setZombieFighter([...zombieFighters, updatedFighters]);
+        setZombieFighter([...zombieFighters, fighter]);
         // elipsis adds new info along with udatedFighters
         setTeam(updatedFighters)
         setMoney(money + fighter.price);
