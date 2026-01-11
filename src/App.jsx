@@ -153,8 +153,8 @@ const App = () => {
     </ul>
   )}
        <h2>Money: ${money}</h2>
-       <h2>totalStrength: {totalStrength}</h2>
-       <h2>totalAgility: {totalAgility}</h2>
+       <h2>Total Strength: {totalStrength}</h2>
+       <h2>Total Agility: {totalAgility}</h2>
     <ul>
 
       {zombieFighters.map((fighter)=>
